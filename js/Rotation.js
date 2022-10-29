@@ -37,7 +37,7 @@ AFRAME.registerComponent("diver-rotation-reader", {
         }
       }
       if (e.key === "ArrowLeft") {
-        if (diverRotation.y < 360) {
+        if (diverRotation.y <360) {
           diverRotation.y += 0.5;
           this.el.setAttribute("rotation", diverRotation);
         }

@@ -19,9 +19,7 @@ AFRAME.registerComponent("fish", {
     fishEl.setAttribute("rotation", { x: 0, y: 180, z: 0 });
 
     fishEl.setAttribute("scale", { x: 0.3, y: 0.3, z: 0.3 });
-
     fishEl.setAttribute("gltf-model", "./assets/fish/scene.gltf");
-
     
     fishEl.setAttribute("animation", {
       property: "position",
@@ -38,8 +36,8 @@ AFRAME.registerComponent("fish", {
       sphereRadius: 2
     });
 
-     //set the game play attribute
-     fishEl.setAttribute("game-play", {
+    //set the game play attribute
+    fishEl.setAttribute("game-play", {
       elementId: `#${id}`,
     });
 
